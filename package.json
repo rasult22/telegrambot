@@ -1,0 +1,22 @@
+{
+  "name": "telegrambot",
+  "version": "0.1.1",
+  "description": "My Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasult22/telegrambot.git"
+  },
+  "author": "Turganov Rassulzhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasult22/telegrambot/issues"
+  },
+  "homepage": "https://github.com/rasult22/telegrambot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
