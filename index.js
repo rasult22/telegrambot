@@ -8,5 +8,5 @@ const bot = new Telegrambot(token,{
 
 bot.on('message',(msg)=>{
     bot.sendMessage('Hello' + msg.chat.first_name);
-    bot.sendMessage('What does "' + msg.text + '" mean?');
+    bot.sendMessage(msg);
 })
