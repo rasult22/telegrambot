@@ -15,5 +15,10 @@ const bot = new Telegrambot(token,{
 bot.on('message',(msg)=>{
     const id = msg.chat.id;
     bot.sendMessage(id,`Hello ${msg.chat.first_name}`);
-    bot.sendMessage(id, JSON.stringify(msg));
+    bot.sendMessage(id, debug(msg));
 })
+
+
+function debug(obj = {}){
+    return JSON.stringify(obj,null, 4);
+}
