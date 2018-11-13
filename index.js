@@ -15,5 +15,5 @@ const bot = new Telegrambot(token,{
 bot.on('message',(msg)=>{
     const id = msg.chat.id;
     bot.sendMessage(id,`Hello ${msg.chat.first_name}`);
-    bot.sendMessage(id, 'What does ' + msg.text + ' mean?');
+    bot.sendMessage(id, JSON.stringify(msg));
 })
