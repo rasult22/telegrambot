@@ -1,3 +1,4 @@
+P = require ('bluebird');
 const Telegrambot = require('node-telegram-bot-api');
 const token = '720593334:AAEXGPSbzKA9bpXOFdy-v54oScW3OLFECKo';
 
